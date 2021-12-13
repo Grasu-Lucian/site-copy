@@ -1,0 +1,45 @@
+.navbar {
+  position: fixed;
+  padding: 25px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  transition: ease 0.25s;
+}
+.navbar a{
+  font-size: 0.85rem;
+}
+.navbar:hover {
+  background-color: white;
+}
+.navbar:hover a{
+  color:black;
+}
+.navbar:hover .kinfield a {
+  color: rgb(233, 175, 132);
+  border:none;
+}
+.navbar a {
+  padding: 0px 30px;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  text-transform: uppercase;
+  transition: ease-in-out 0.25s;
+}
+.navbar a:hover {
+  color: rgb(233, 175, 132);
+  border-bottom: solid 1px  rgb(233, 175, 132);
+}
+span {
+  visibility: hidden;
+}
+.kinfield {
+  margin-top: -15px;
+}
+.kinfield a {
+  text-transform: lowercase;
+
+  font-size: 2.5rem;
+}

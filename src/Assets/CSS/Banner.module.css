@@ -1,0 +1,18 @@
+.container a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 0.7rem;
+  width: 100%;
+  letter-spacing: .07rem;
+}
+.container {
+  padding: 7px 0;
+  background-color: rgb(233, 175, 132);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
