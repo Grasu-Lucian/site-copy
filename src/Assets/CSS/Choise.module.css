@@ -1,0 +1,34 @@
+.container {
+  position: absolute;
+  top: 45%;
+  left: 65%;
+  direction: rtl;
+}
+.title {
+  color: white;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+.description {
+  color: white;
+  font-weight: 500;
+  
+}
+.container button {
+  margin-top: 30px;
+font-size: 0.70rem;
+  outline: none;
+  border: none;
+  background: #d97a56;
+  color: white;
+  padding: 13px 50px;
+text-transform: uppercase;
+transition: ease-in-out 0.25s;
+cursor: pointer;
+}
+.container button:hover{
+  background: #e4ab97;
+}
+.homepage_image{
+  width: 100%;
+}
