@@ -4,31 +4,85 @@
   left: 65%;
   direction: rtl;
 }
-.title {
+.title, .title1 {
   color: white;
   font-size: 3.5rem;
   font-weight: bold;
 }
-.description {
+.description,.description1 {
   color: white;
   font-weight: 500;
-  
 }
 .container button {
   margin-top: 30px;
-font-size: 0.70rem;
+  font-size: 0.7rem;
   outline: none;
   border: none;
   background: #d97a56;
   color: white;
   padding: 13px 50px;
-text-transform: uppercase;
-transition: ease-in-out 0.25s;
-cursor: pointer;
+  text-transform: uppercase;
+  transition: ease-in-out 0.25s;
+  cursor: pointer;
+  transition: ease-in-out 0.25s;
 }
-.container button:hover{
+.container button:hover {
   background: #e4ab97;
 }
-.homepage_image{
+.homepage_image {
   width: 100%;
+  transition: ease-in-out 0.25s;
+}
+.container1 {
+  position: absolute;
+  top: 45%;
+  left: 60%;
+  direction: rtl;
+}
+.container1 button {
+  margin-top: 30px;
+  font-size: 0.7rem;
+  outline: none;
+  border: none;
+  background-color: #07477e;
+  color: white;
+  padding: 13px 50px;
+  text-transform: uppercase;
+  transition: ease-in-out 0.25s;
+  cursor: pointer;
+}
+.container1 button:hover {
+  background: #0a77d6;
+}
+.title1 button, .title button,
+.description1 button , .description button {
+  top: 20px;
+  left: 112%;
+  position: absolute;
+  padding: 1px 17px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.title1 button , .description button{
+  top: 50px;
+  left: 115%;
+  padding: 1px 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.title button{
+  left: 117%;
+  padding: 1px 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.description button{
+  left:113%;
+  padding: 1px 17px;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+.title1 button:hover {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+.decription button:hover {
+  background-color: rgba(255, 255, 255, 0.7);
 }
