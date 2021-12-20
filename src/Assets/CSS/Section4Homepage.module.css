@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+}
+.more_articles {
+  width: 60%;
+  display: flex;
+  overflow: hidden;
+  margin-left: -90px;
+}
+.more_articles1 {
+  margin-left: 4vw;
+  display: flex;
+  flex-direction: row;
+  width: 150%;
+}
+.more_articles button {
+  position: absolute;
+  height: 30vh;
+  align-items: center;
+  align-self: center;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-weight: bolder;
+  font-size: 2rem;
+  transition: ease-in-out 0.25s;
+  cursor: pointer;
+}
+.more_articles button:hover {
+  color: rgb(63, 63, 63);
+}
+.second {
+  left: 96%;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 8vw;
+width: 46%;
+}
+.title {
+  font-size: 2rem;  
+  font-weight: bolder;
+  margin-top: -120px;
+}
+.description{
+    margin-top: 50px;
+    width: 70%;
+    font-size: 1.1rem;
+    font-size: bold;
+}
+.blog{
+    margin-top: 50px;
+color:black;
+font-weight: bolder;
+transition: ease-in-out 0.25s;
+}
+.blog:hover{
+    color: #d97a56;
+}

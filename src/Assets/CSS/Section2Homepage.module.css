@@ -1,0 +1,34 @@
+.container {
+  background-color: #86af9a;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 2.5rem;
+}
+.container button {
+  color: white;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding: 10vw;
+  font-size: 2.5rem;
+  cursor: pointer;
+  transition: ease-in-out 0.25s;
+}
+.container button:hover {
+  color: rgb(226, 226, 226);
+}
+.reviews {
+  display: flex;
+  flex-direction: column;
+  padding: 27vh 0;
+}
+.comment {
+  text-align: center;
+  width: 95%;
+}
+.counter {
+  margin-top: 30px;
+  text-align: center;
+}

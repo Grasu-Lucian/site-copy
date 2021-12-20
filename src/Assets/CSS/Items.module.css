@@ -1,0 +1,31 @@
+.panel {
+    
+  width: 19.619326500732065vw;
+  height: 25.915080527086385vw;
+  cursor: pointer;
+  transition: ease-in-out 0.25s;
+}
+.cont:hover .panel{
+    opacity: 0;
+ 
+}
+.panel1 {
+    position: absolute;
+    opacity: 0;
+    z-index: -2;
+    margin-left:-19.619326500732065vw;
+  width: 19.619326500732065vw;
+  height: 25.915080527086385vw;
+  transition: ease-in-out 0.25s;
+}
+.cont:hover .panel1{
+    opacity: 1;
+}
+.text{
+    text-align: center;
+    font-weight: bolder;
+}
+.subtext{
+    text-align: center;
+    color: #737680;
+}

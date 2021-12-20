@@ -1,0 +1,20 @@
+.image_space{
+    width: 25.036603221083457vw;
+    transition: ease-in-out 0.25s;
+  cursor: pointer;
+}
+.container{
+    width: 25.036603221083457vw; 
+    margin-right: 28px;
+}
+.image_container{
+    margin-left: 2vw;
+    width: 25.036603221083457vw;
+   overflow: hidden;
+}
+.image_space:hover{
+    transform: scale(1.1);
+}
+.text{
+    margin-left: 2vw;
+}

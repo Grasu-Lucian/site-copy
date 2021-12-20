@@ -1,0 +1,31 @@
+.background {
+  background-image: url(//cdn.shopify.com/s/files/1/0025/2510/2126/files/1920-980-Car-Interior-Updated_copy_2048x.jpg?v=1601043785);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: 200px;
+}
+.text {
+  color: white;
+  font-weight: bolder;
+  font-size: 2.4rem;
+  width: 60%;
+  text-align: center;
+}
+.background button {
+  outline: none;
+  color: #737680;
+  background-color: white;
+  border: none;
+  margin-top: 80px;
+  padding: 20px;
+  font-size: 1.2rem;
+  transition: ease-in-out 0.25s;
+cursor: pointer;
+}
+.background button:hover{
+color: white;
+background-color: #d97a56;;
+}

@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.shopping {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 11%;
+}
+.title {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 150px;
+  font-weight: bolder;
+}
+.subtitle {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 1.25rem;
+  margin-bottom: 100px;
+}
+.textt{
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    
+}
+.container a{
+    text-decoration: none;
+    color: #d97a56;
+    font-weight: bold;
+font-size: 1.5rem;
+transition: ease-in-out 0.25s;
+letter-spacing: 1.5px;
+}
+.container a:hover{
+    color: #e4a28a;
+    
+}
