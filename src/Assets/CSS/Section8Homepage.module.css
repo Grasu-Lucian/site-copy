@@ -1,0 +1,40 @@
+.container {
+    margin-top: 100px;
+  padding-top: 100px;
+  background-color: #e9af84;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+.tittle {
+  margin-left: -10vw;
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+.title1 span {
+  font-size: 1.2rem;
+  font-weight: 500;
+  opacity: 1;
+  visibility: visible;
+  text-transform: uppercase;
+}
+.subcontainer {
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+.subcontainer a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.05rem;
+    font-weight: 500;
+    transition: ease-in-out 0.25s;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.subcontainer a:hover{
+    opacity: 0.75;
+}

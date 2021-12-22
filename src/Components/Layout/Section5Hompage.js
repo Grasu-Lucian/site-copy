@@ -34,7 +34,7 @@ export default function Section5Hompage() {
           <img data-aos="fade-up" className={classes.background} src={background}/>
     <div data-aos="fade-up" className={classes.text}>
       <div className={classes.title}>Made Safe for People + Planet™</div>
-      {data.map((data)=>(<Text  title={data.subtitle} description={data.description} anchor={data.anchor}/>))}
+      {data.map((data,anc)=>(<Text key={anc} title={data.subtitle} description={data.description} anchor={data.anchor}/>))}
     </div>
     </div>
   );

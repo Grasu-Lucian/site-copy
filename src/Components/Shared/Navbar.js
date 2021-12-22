@@ -27,7 +27,7 @@ window.addEventListener('scroll',ChangeBackground)
       style={{ overflowY: "auto", overflowX: "hidden" }}
     >
       <div className={classes.shop_learn}>
-        <a href="/#">shop</a>
+        <a href="/#">shop </a>
         <a href="/#">learn</a>
       </div>
       <div className={classes.kinfield}>

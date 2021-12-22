@@ -1,0 +1,25 @@
+.photo {
+  width: 18.740849194729137vw;
+  height: 18.740849194729137vw;
+  cursor: pointer;
+  transition: ease-in-out 0.25s;
+  margin-left: -10px;
+}
+
+.icon {
+  position: absolute;
+  transition: ease-in-out 0.25s;
+  font-size: 2rem;
+  color: white;
+  z-index: 4;
+  opacity: 0;
+  margin-left: 8.370424595vw;
+  margin-top: 8.370424595vw;
+}
+
+.container:hover .icon {
+  opacity: 1;
+}
+.container:hover .photo{
+    filter: brightness(0.5);
+}

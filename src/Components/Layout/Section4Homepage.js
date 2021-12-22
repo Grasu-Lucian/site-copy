@@ -33,21 +33,21 @@ export default function Section4Homepage() {
   const [counter, setCounter] = useState(0);
 
   function toTheRight() {
-    if (counter < 740) {
-      setCounter(counter + 740);
-    } else if (counter === 740) {
-      setCounter(counter + 370);
-    } else if (counter > 740) {
+    if (counter < 800) {
+      setCounter(counter + 800);
+    } else if (counter === 800) {
+      setCounter(counter + 400);
+    } else if (counter > 800) {
       setCounter(counter);
     }
   }
   function toTheLeft() {
-    if (counter < 370) {
+    if (counter < 400) {
       setCounter(counter);
-    } else if (counter === 370) {
-      setCounter(counter - 370);
-    } else if (counter <= 1110) {
-      setCounter(counter - 740);
+    } else if (counter === 400) {
+      setCounter(counter - 400);
+    } else if (counter <= 11200) {
+      setCounter(counter - 800);
     }
   }
 
