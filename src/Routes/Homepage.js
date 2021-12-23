@@ -10,7 +10,7 @@ import Section4Homepage from "../Components/Layout/Section4Homepage";
 import Section5Hompage from "../Components/Layout/Section5Hompage";
 import Section6Homepage from "../Components/Layout/Section6Homepage";
 import Section7Homepage from "../Components/Layout/Section7Homepage";
-import Section8Homepage from "../Components/Layout/Section8Homepage";
+import EndPage from "../Components/Shared/EndPage";
 export default function Homepage() {
   return (
     <Fragment>
@@ -24,7 +24,7 @@ export default function Homepage() {
       <Section5Hompage/>
       <Section6Homepage/>
       <Section7Homepage/>
-      <Section8Homepage/>
+      <EndPage/>
     </Fragment>
   );
 }

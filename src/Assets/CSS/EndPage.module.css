@@ -1,0 +1,91 @@
+.container {
+    margin-top: 100px;
+  padding-top: 100px;
+  background-color: #e9af84;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+.tittle {
+  margin-left: -10vw;
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+.title1 span {
+  font-size: 1.2rem;
+  font-weight: 500;
+  opacity: 1;
+  visibility: visible;
+  text-transform: uppercase;
+}
+.subcontainer {
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+.subcontainer a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.05rem;
+    font-weight: 500;
+    transition: ease-in-out 0.25s;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.subcontainer a:hover{
+    opacity: 0.75;
+}
+.logo {
+    position: absolute;
+    margin-top: 100px;
+    left: 47.5%;
+    width: 87px;
+    height: 100px;
+  }
+  .logoo {
+    z-index: 6;
+    cursor: pointer;
+    transition: ease-in-out 0.25s;
+  }
+  .logoo:hover {
+    opacity: 0;
+  }
+  .Knifield{
+    border-bottom:1px solid black;
+  transition: ease-in-out 0.25s;
+  }
+  .Knifield:hover{
+    border-bottom:1px solid    #d97a56;
+  }
+   .container1 form{
+    display: flex;
+  flex-direction: column;
+  margin-top: 300px;
+  }
+  .container1 input{
+      text-align: center;
+      
+    border: none;
+    border-bottom:#d97a56 1px solid ;
+    color:#d97a56 ;
+    outline: none;
+  }
+  .container1 input:hover{
+    border-bottom: black solid 1px;
+  }
+  .container1 button{
+    outline: none ;
+     border: none;
+     background-color: transparent;
+     color:#d97a56 ;
+     font-weight: 700;
+  margin-top: 50px;
+  cursor: pointer;
+  }
+  .container1{
+      display: flex;
+      justify-content: center;
+  }

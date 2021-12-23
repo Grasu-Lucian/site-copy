@@ -1,0 +1,41 @@
+.container{
+    margin-top: 26px;
+    display: flex;
+    margin-left: 5vw;
+    flex-direction: column;
+padding-bottom: 50px;
+}
+.title{
+    color: #d97a56;
+    padding-top: 50px;
+    text-align: start;
+    font-size: 2rem;
+    font-weight: 700;
+    width: 8%;
+
+}
+.container a{
+    border: none;
+}
+.container a:hover{
+    border:none;
+}
+.title:hover{
+    color: #d97a56;
+   border-bottom: 1px solid #d97a56;;
+}
+.container1 a{
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+    
+    font-weight: 600;
+    font-size: 0.8rem;
+    width: 5%;
+    color: #737680;
+    margin-top: 20px;
+}
+.container1 a:hover {
+    border-bottom: 1px solid black;
+    color:black;
+}

@@ -1,7 +1,7 @@
 .navbar {
   position: fixed;
   padding: 25px;
-  padding-bottom: 10px;
+  padding-bottom: 0;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -48,6 +48,8 @@ span {
   height: 40px;
 }
 .kinfield {
+  position: relative;
+  z-index: 20;
   margin-top: -15px;
 }
 .kinfield a {
@@ -57,4 +59,35 @@ span {
 }
 .last{
   margin-right: 50px;
+}
+.hid{
+  left:0;
+  width: 100%;
+  position: absolute;
+  background-color: white;
+  transition: ease 0.25s;
+  visibility: hidden;
+  opacity: 0;
+  margin-top:25px;
+}
+.navbar .shop:hover .hid, .hid:hover{
+  visibility: visible;
+  opacity: 1;
+  transition: ease-in-out 0.25;
+}
+
+.navbar .learn:hover .hid, .hid:hover{
+  visibility: visible;
+  opacity: 1;
+  transition: ease-in-out 0.25;
+}
+
+.shop_learn{
+  display: flex;
+}
+.shop {
+  padding-bottom: 25px;
+}
+.learn {
+  padding-bottom: 25px;
 }

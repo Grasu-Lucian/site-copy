@@ -1,0 +1,34 @@
+.looks {
+  width: 11.61493411420205vw;
+}
+.looks1 {
+  width: 11.61493411420205vw;
+  margin-left: -11.61493411420205vw;
+  opacity: 0;
+  transition: ease-in-out 0.25s;
+}
+.looks1:hover {
+  opacity: 1;
+}
+.container {
+  display: flex;
+  width: 85%;
+  margin-left: 3vw;
+}
+
+.title {
+    color:black;
+    font-weight: 700;
+    text-align: center;
+  margin-left: 3vw;
+  font-size: 1.1rem;
+  width: 11.61493411420205vw;
+  text-transform:initial;
+}
+.container1{
+    margin-top: 60px;
+}
+.subtitle{
+    color: #737680;
+    font-weight: 400;
+}

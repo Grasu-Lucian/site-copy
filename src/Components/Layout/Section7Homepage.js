@@ -40,14 +40,7 @@ setValue(e.target.value)
           <ImageDisplayer key={anc} image={data.image} URL={data.URL} />
         ))}
       </div>
-      <div className="log">
-          <img className={`${classes.logo} ${classes.logoo}`} src={logo}/>
-          <img className={classes.logo} src={gif} />
-      </div>
-      <form>
-      <input type='text' value={value} onInput={(e)=>{Typing(e)}}/>
-      <button type="submit" onClick={(e)=>{ClickEventHandler(e)}}>Join Our List</button>
-      </form>
+      
     </div>
   );
 }
